@@ -41,3 +41,24 @@
 - **git reflog** - View the entire history of repository actions.
 
 - **git checkout <commit hashcode>** - View the status of the project at the time of the selected commit. (Sets the Head pointer to the selected commit.)
+
+
+## Working with branches
+
+- **git branch** - View a list of all available branches. The current branch is highlighted with a *.
+
+- **git branch <Name>** - Create a new branch based on the current one.
+
+- **git branch -d <Name>** - Delete the selected branch. (All commits that were in this branch are not deleted from the repository and they can always be found using git reflog)
+
+- **git checkout <Name>** - Make the selected branch active.
+
+- **git checkout -b <Name>** - Create a new branch and immediately make it active.
+
+- **git merge <Name>** - Merge the selected branch with the currently active branch.
+
+- **git diff <branch1> <branch2>** - Displays changes relative to two branches.
+
+
+
+## Working with remote repositories
