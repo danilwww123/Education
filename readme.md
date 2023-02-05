@@ -62,3 +62,37 @@
 
 
 ## Working with remote repositories
+
+
+- **git clone <Link not repository>** - Download the selected repository to the current working folder.
+
+
+
+
+- **git remote add <Name> <Link to the remote repository>** - Connect the selected remote repository.
+
+
+
+
+- **git fetch** - Downloads from a remote repository all changes that are missing from the local repository and makes them to the local repository.
+
+
+
+
+- **git pull** - Downloads from the remote repository all changes that are missing from the local repository and makes them to the local repository and to the user's workspace.
+
+
+
+
+- **git push** - Uploads to the remote origin repository all changes made in the local repository.
+
+
+
+
+- **git push <Remote repository name> <Unloaded branch>** - Uploads the specified branch to the remote repository.
+
+
+fish-cone
+
+
+---
